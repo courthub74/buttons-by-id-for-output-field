@@ -1,0 +1,26 @@
+<!-- You will now send the output from the buttons
+        to the display.html page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons to other Page</title>
+</head>
+<body>
+
+    <h2>Buttons by ID</h2>
+    <form method="POST" action="display.html">
+        <button type="submit" href="display.html" id="button1" value="One" onclick="getButton()">Button 1</button>
+        <button type="submit" href="display.html" id="button2" value="Two" onclick="getButton()">Button 2</button>
+        <button type="submit" href="display.html" id="button3" value="Three" onclick="getButton()">Button 3</button>
+    </form>
+
+
+    <!-- JS Link -->
+    <script type="text/javascript" src="buttons2.js"></script>
+    
+</body>
+</html>
