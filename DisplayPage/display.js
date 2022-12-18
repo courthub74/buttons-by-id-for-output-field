@@ -22,7 +22,4 @@ window.addEventListener('load', () => {
     // Create the right method of filtering which button was pressed
     // IDEAS
         // USE if then statements
-    if(button1){
-        
-    }
 });

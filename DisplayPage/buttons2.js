@@ -24,36 +24,24 @@ console.log(third);
     // then set it into localStorage to be extracted by the display page
 // then print it to the output div
 
-// Do a getButton
-function getButton(){
+// for Button 1
+function getButton1(){
     let value1 = first.value;
     console.log(value1);
     localStorage.setItem("BUTTON1", value1);
+    // call button1 function within here for display page
+};
+
+// for Button 2
+function getButton2(){
     let value2 = second.value;
     console.log(value2);
     localStorage.setItem("BUTTON2", value2);
+};
+
+// for Button 3
+function getButton3(){
     let value3 = third.value;
     console.log(value3);
     localStorage.setItem("BUTTON3", value3);
 }
-// for Button 1
-// function getButton1(){
-//     let value1 = first.value;
-//     console.log(value1);
-//     localStorage.setItem("BUTTON1", value1);
-    // call button1 function within here for display page
-// };
-
-// for Button 2
-// function getButton2(){
-//     let value2 = second.value;
-//     console.log(value2);
-//     localStorage.setItem("BUTTON2", value2);
-// }
-
-// for Button 3
-// function getButton3(){
-//     let value3 = third.value;
-//     console.log(value3);
-//     localStorage.setItem("BUTTON3", value3);
-// }
