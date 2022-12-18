@@ -21,5 +21,6 @@ window.addEventListener('load', () => {
 
     // Create the right method of filtering which button was pressed
     // IDEAS
+        // put them in an array
         // USE if then statements
 });
