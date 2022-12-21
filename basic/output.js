@@ -9,16 +9,19 @@ window.addEventListener('load', () => {
     var button1 = localStorage.getItem("BUTTON1");
     console.log(button1);
     document.getElementById("show").innerHTML = button1;
-
-
+    
     var button2 = localStorage.getItem("BUTTON2");
     console.log(button2);
     document.getElementById("show").innerHTML = button2;
-
+    
 
     var button3 = localStorage.getItem("BUTTON3");
     console.log(button3);
     document.getElementById("show").innerHTML = button3;
+
+    var button4 = localStorage.getItem("BUTTON4");
+    console.log(button4);
+    document.getElementById("show").innerHTML = button4;
 });
 
 

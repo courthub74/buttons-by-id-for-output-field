@@ -31,6 +31,10 @@ window.addEventListener('load', () =>{
             let Tres = e.target.value;
             localStorage.setItem("BUTTON3", Tres);
         }
+        if(e.target && e.target.id === "four"){
+            let Quatro = e.target.value;
+            localStorage.setItem("BUTTON4", Quatro);
+        }
     // localStorage.setItem("BUTTONS", buttons);
     });
 });
