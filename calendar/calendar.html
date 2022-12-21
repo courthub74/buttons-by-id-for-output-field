@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+</head>
+<body>
+
+    <header>
+        <h1>The Calendar with onclick</h1>
+    </header>
+
+    <!-- The Calendar -->
+    <table>
+        <!-- Days -->
+        <thead>
+            <tr>
+                <td>Mo</td>
+                <td>Tu</td>
+                <td>We</td>
+                <td>Th</td>
+                <td>Fr</td>
+                <td>Sa</td>
+                <td>Su</td>
+            </tr>
+        </thead>
+        <!-- Dates -->
+        <tbody>
+            <td><button id="first" value="June 1, 2023" onclick="getFirst()">1</button></td>
+            <td><button id="second" value="June 2, 2023" onclick="getSecond()">2</button></td>
+            <td><button id="third" value="June 3, 2023" onclick="getThird()">3</button></td>
+            <td><button id="fourth" value="June 4, 2023" onclick="getFourth()">4</button></td>
+            <td><button id="fifth" value="June 5, 2023" onclick="getFifth()">5</button></td>
+            <td><button id="sixth" value="June 6, 2023" onclick="getSixth()">6</button></td>
+            <td><button id="seventh" value="June 7, 2023" onclick="getSeventh()">7</button></td>
+        </tbody>
+    </table>
+
+    <!-- The Date Clicked -->
+    <p>The Date Clicked Shows Below:</p>
+    <span id="show"></span>
+    
+    <!-- Link the JS -->
+    <script src="calendar.js"></script>
+</body>
+</html>
